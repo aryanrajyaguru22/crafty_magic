@@ -1,0 +1,10 @@
+<?php 
+    if(isset($_COOKIE["admin"]))
+    {
+        header("location:adhome.php");
+    }
+    else
+    {
+        header("location:login.php");
+    }
+?>
